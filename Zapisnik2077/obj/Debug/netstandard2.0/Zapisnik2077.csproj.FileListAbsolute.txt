@@ -1,0 +1,15 @@
+C:\Users\tobik\source\repos\Zapisnik2077\Zapisnik2077\Zapisnik2077\bin\Debug\netstandard2.0\Zapisnik2077.deps.json
+C:\Users\tobik\source\repos\Zapisnik2077\Zapisnik2077\Zapisnik2077\bin\Debug\netstandard2.0\Zapisnik2077.dll
+C:\Users\tobik\source\repos\Zapisnik2077\Zapisnik2077\Zapisnik2077\obj\Debug\netstandard2.0\Zapisnik2077.csprojAssemblyReference.cache
+C:\Users\tobik\source\repos\Zapisnik2077\Zapisnik2077\Zapisnik2077\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\tobik\source\repos\Zapisnik2077\Zapisnik2077\Zapisnik2077\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\tobik\source\repos\Zapisnik2077\Zapisnik2077\Zapisnik2077\obj\Debug\netstandard2.0\SingleNote.xaml.g.cs
+C:\Users\tobik\source\repos\Zapisnik2077\Zapisnik2077\Zapisnik2077\obj\Debug\netstandard2.0\Zapisnik2077.AssemblyInfoInputs.cache
+C:\Users\tobik\source\repos\Zapisnik2077\Zapisnik2077\Zapisnik2077\obj\Debug\netstandard2.0\Zapisnik2077.AssemblyInfo.cs
+C:\Users\tobik\source\repos\Zapisnik2077\Zapisnik2077\Zapisnik2077\bin\Debug\netstandard2.0\ref\Zapisnik2077.dll
+C:\Users\tobik\source\repos\Zapisnik2077\Zapisnik2077\Zapisnik2077\bin\Debug\netstandard2.0\Zapisnik2077.pdb
+C:\Users\tobik\source\repos\Zapisnik2077\Zapisnik2077\Zapisnik2077\obj\Debug\netstandard2.0\Zapisnik2077.csproj.CoreCompileInputs.cache
+C:\Users\tobik\source\repos\Zapisnik2077\Zapisnik2077\Zapisnik2077\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\tobik\source\repos\Zapisnik2077\Zapisnik2077\Zapisnik2077\obj\Debug\netstandard2.0\Zapisnik2077.dll
+C:\Users\tobik\source\repos\Zapisnik2077\Zapisnik2077\Zapisnik2077\obj\Debug\netstandard2.0\ref\Zapisnik2077.dll
+C:\Users\tobik\source\repos\Zapisnik2077\Zapisnik2077\Zapisnik2077\obj\Debug\netstandard2.0\Zapisnik2077.pdb
