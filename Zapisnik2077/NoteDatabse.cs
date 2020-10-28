@@ -40,12 +40,15 @@ namespace Zapisnik2077
 
         public Task<int> SaveNoteAsync(Note note)
         {
+            System.Diagnostics.Debug.WriteLine("Updating");
             if (note.ID != 0)
             {
+                System.Diagnostics.Debug.WriteLine("Created New Note");
                 return _database.UpdateAsync(note);
             }
             else
             {
+                System.Diagnostics.Debug.WriteLine("Updated");
                 return _database.InsertAsync(note);
             }
         }

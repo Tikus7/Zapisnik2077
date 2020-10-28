@@ -28,16 +28,30 @@ namespace Zapisnik2077
             }
         }
 
+        async void OpenNote(object sender, EventArgs e)
+        {
+            Note TmpNote = (Note)listView.SelectedItem;
+            await Navigation.PushAsync(new SingleNote(TmpNote));
+        }
 
         async void CreateNewNote(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new SingleNote());
+            Note TmpNote = new Note();
+            TmpNote.CreationDate = DateTime.Today;
+            TmpNote.LastChange = DateTime.Today;
+            await App.Database.SaveNoteAsync(TmpNote);
+            List<Note> AllNotes = await App.Database.GetNotesAsync();
+            await Navigation.PushAsync(
+                new SingleNote(AllNotes[AllNotes.Count-1])
+                );
         }
         protected override async void OnAppearing()
         {
             base.OnAppearing();
+            List<Note> AllNotes = await App.Database.GetNotesAsync();
+            AllNotes.Reverse();
             //CreateFakeTable();
-            listView.ItemsSource = await App.Database.GetNotesAsync();
+            listView.ItemsSource = AllNotes;
             
         }
     }

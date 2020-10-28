@@ -25,7 +25,10 @@ namespace Zapisnik2077
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new MainPage())
+            {
+                BarBackgroundColor = Color.Purple
+            };
         }
 
         protected override void OnStart()

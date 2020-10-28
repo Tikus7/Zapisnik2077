@@ -2,11 +2,16 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Zapisnik2077.SingleNote">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    <StackLayout>
+        <Entry x:Name="Name" Placeholder="Name"/>
+        <Editor Placeholder="Text" HeightRequest="300" x:Name="Text"></Editor>
+        <Grid>
+            <Button Clicked="UpdateNote" Text="Save"></Button>
+            <Button Clicked="DeleteNote" Grid.Column="1" Text="Delete"></Button>
+            <Label HorizontalTextAlignment="Center" Text="Created" Grid.Row="1"/>
+            <Label HorizontalTextAlignment="Center" Text="Last Updated" Grid.Row="1" Grid.Column="1"/>
+            <Label x:Name="Created" HorizontalTextAlignment="Center" Grid.Row="2"/>
+            <Label x:Name="LastUpdate" HorizontalTextAlignment="Center" Grid.Row="2" Grid.Column="1"/>
+        </Grid>
+    </StackLayout>
 </ContentPage>
